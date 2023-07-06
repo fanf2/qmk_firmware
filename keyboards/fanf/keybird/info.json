@@ -6,38 +6,39 @@
     "bootloader": "rp2040",
     "board": "GENERIC_RP_RP2040",
     "usb": {
-        "vid": "0x2e40"
+        "vid": "0x2E40"
         "pid": "0x6903",
         "device_version": "0.3.0",
     },
     "features": {
         "audio": false,
         "backlight": false,
-        "bootmagic": true,
+        "bootmagic": false,
         "command": false,
-        "console": false,
+        "console": true,
         "extrakey": true,
-        "mousekey": true,
+        "mousekey": false,
         "nkro": false,
-        "rgb_matrix": true,
-        "rgblight": false
+        "rgb_matrix": false,
+        "rgblight": true
     },
     "rgblight": {
 	"led_count": 1,
-	"pin": "GP16",
-	"hue_steps": 17,
-	"saturation_steps": 17,
-	"brightness_steps": 17,
 	"animations": {
 	    "breathing": true
 	    "rainbow_mood": true,
+	    "rgb_test": true,
 	    "twinkle": true
 	}
     },
+    "ws2812": {
+	"pin": "GP16",
+	"driver": "vendor"
+    },
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "cols": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP7", "GP8"],
-        "rows": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP26"]
+        "cols": ["GP0", "GP1", "GP2", "GP3", "GP7", "GP6", "GP5", "GP4"],
+        "rows": ["GP9", "GP10", "GP11", "GP12", "GP13", "GP14", "GP15", "GP26", "GP8"]
     },
     "layouts": {
         "LAYOUT_unix69": {
