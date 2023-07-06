@@ -24,7 +24,7 @@
     },
     "rgblight": {
 	"led_count": 1,
-	"pin", "GP16",
+	"pin": "GP16",
 	"hue_steps": 17,
 	"saturation_steps": 17,
 	"brightness_steps": 17,
