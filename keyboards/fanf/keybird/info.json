@@ -40,7 +40,7 @@
         "rows": ["GP0", "GP1", "GP2", "GP3", "GP4", "GP5", "GP6", "GP26"]
     },
     "layouts": {
-        "LAYOUT_65_ansi_split_bs": {
+        "LAYOUT_unix69": {
             "layout": [
                 { "label": "ESC", "matrix": [0,0], "x": 0, "y": 0, "w": 1 },
                 { "label": "1", "matrix": [1,0], "x": 1, "y": 0, "w": 1 },
