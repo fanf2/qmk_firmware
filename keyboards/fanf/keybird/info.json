@@ -6,8 +6,8 @@
     "bootloader": "rp2040",
     "board": "GENERIC_RP_RP2040",
     "usb": {
-        "vid": "0x2E40"
-        "pid": "0x6903",
+        "vid": "0x2E8A"
+        "pid": "0x101F",
         "device_version": "0.3.0",
     },
     "features": {
