@@ -31,8 +31,6 @@
 	"animations": {
 	    "breathing": true
 	    "rainbow_mood": true,
-	    "rgb_test": true,
-	    "twinkle": true
 	}
     },
     "ws2812": {
