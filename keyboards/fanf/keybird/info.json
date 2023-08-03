@@ -13,29 +13,7 @@
     "features": {
         "console": true,
         "extrakey": true,
-        "rgblight": true,
-
-        "audio": false,
-        "backlight": false,
-        "bootmagic": false,
-        "command": false,
-        "mousekey": false,
-        "nkro": false,
-        "rgb_matrix": false
-    },
-    "eeprom": {
-	"driver": "transient"
-    },
-    "rgblight": {
-	"led_count": 1,
-	"animations": {
-	    "breathing": true
-	    "rainbow_mood": true,
-	}
-    },
-    "ws2812": {
-	"pin": "GP16",
-	"driver": "vendor"
+        "nkro": true
     },
     "diode_direction": "COL2ROW",
     "matrix_pins": {
