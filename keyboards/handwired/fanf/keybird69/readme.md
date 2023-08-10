@@ -1,9 +1,11 @@
-# fanf's keybird
+# fanf's keybird69
 
-This is a DIY 65% keyboard made by Tony Finch <dot@dotat.at>
+This is a DIY 65% keyboard with a unix69 layout
+made by Tony Finch <dot@dotat.at>
 
-It is designed to support a unix69 layout with minimal soldering
-(tho, it turns out, not as little as I was aiming for)
+Repository for the PCB and case design:
+
+  * https://github.com/fanf2/kbd/
 
 It uses a Waveshare RP2040-Tiny controller and an 8x9 matrix.
 
@@ -16,3 +18,5 @@ VID and PID.
 can be surface mounted; the -Tiny lacks the extra GPIO pads on the
 underside of the -Zero, and -Zero has a built-in USB-C socket unlike
 the  separate USB adapter board for the -Tiny.)
+
+[usb-pid]: https://github.com/raspberrypi/usb-pid
