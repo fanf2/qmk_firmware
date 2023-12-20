@@ -1,0 +1,12 @@
+{
+    "keyboard": "handwired/fanf/keybird1",
+    "author": "fanf2",
+    "version": 1,
+    "keymap": "single",
+    "layout": "LAYOUT",
+    "layers": [
+        [
+            "KC_ESC", "KC_ENTER"
+	]
+    ]
+}

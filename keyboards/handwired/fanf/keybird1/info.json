@@ -1,0 +1,31 @@
+{
+    "keyboard_name": "keybird1",
+    "manufacturer": "Tony Finch <dot@dotat.at>",
+    "maintainer": "fanf2",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "board": "GENERIC_RP_RP2040",
+    "usb": {
+        "vid": "0x2E8A"
+        "pid": "0x101F",
+        "device_version": "0.1.0",
+    },
+    "features": {
+        "console": true,
+        "extrakey": true,
+        "nkro": true
+    },
+    "matrix_pins": {
+	"direct": [
+	    [ "GP23", "GP0"]
+	]
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                { "label": "ESC", "matrix": [0,0], "x": 0, "y": 0 },
+                { "label": "ENTER", "matrix": [0,1], "x": 0, "y": 0 }
+            ]
+        }
+    }
+}
