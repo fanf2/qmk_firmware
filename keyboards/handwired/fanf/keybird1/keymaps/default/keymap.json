@@ -4,9 +4,5 @@
     "version": 1,
     "keymap": "single",
     "layout": "LAYOUT",
-    "layers": [
-        [
-            "KC_ESC", "KC_ENTER"
-	]
-    ]
+    "layers": [ [ "KC_ENTER" ] ]
 }
